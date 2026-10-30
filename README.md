@@ -1,11 +1,13 @@
 # Food Image Classifier 
 CNN vs Fine-tuned VGG16
 
+**FULL REPORT IS LOCATED AT THE BOTTOM OF THE IPYNB FILE**
+
 **Tools**: Python, Keras, VGG16
 
 ## Data 
 10 classes from Food-101 Kaggle dataset: apple_pie, baby_back_ribs, breakfast_burrito, chocolate_cake, cup_cakes, eggs_benedict, escargots, falafel, risotto, sushi
-750 / 200 / 50 per class, giving 7,500 train / 2,000 validation / 500 held-out test images, resized to 100x100 due to computing power required to process a larger size. 
+750 / 200 / 50 per class, giving 7,500 train / 2,000 validation / 500 held-out test images, resized to 100x100 due to the computing power required to process a larger size. 
 
 ## Approach
 1. **Baseline CNN trained from scratch**
